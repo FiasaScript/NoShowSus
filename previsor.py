@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 @st.cache_resource
 def treinar_modelo():
-    df = pd.read_csv(r'Data_and_analysis\KaggleV2-May-2016.csv')
+    df = pd.read_csv('Data_and_analysis\KaggleV2-May-2016.csv')
 
     df['ScheduledDay'] = pd.to_datetime(df['ScheduledDay']).dt.normalize()
     df['AppointmentDay'] = pd.to_datetime(df['AppointmentDay']).dt.normalize()
