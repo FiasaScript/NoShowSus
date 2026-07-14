@@ -46,3 +46,7 @@ This project uses a historical dataset of public health appointments in **Vitór
    ```bash
    git clone [https://github.com/FiasaScript/vitoria-sus-absenteismo.git](https://github.com/FiasaScript/vitoria-sus-absenteismo.git)
    cd vitoria-sus-absenteismo
+
+## Run through Stlit Community Cloud
+```bash
+https://noshowsus-ukudqtlz5rg67hjvkdasnu.streamlit.app
